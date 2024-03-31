@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <link rel="stylesheet" href="./style/all_style.css">
+    <link rel="stylesheet" href="./style/navbar_style1.css">
+    <link rel="stylesheet" href="./style/container_style.css">
+    <link rel="stylesheet" href="./style/navbar_flex.css">
+    <link rel="stylesheet" href="./style/navbar_list.css">
+    <link rel="stylesheet" href="./style/dropdown_style.css">
+</head>
+<body>
+
+    <header class="nav">
+        <div class="container container-flex">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">个人网站</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://zxh111222.github.io/" target="_blank">我的Github主页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank">个人简历</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" role="button">
+                        项目经历
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">智能车</a></li>
+                        <li><a class="dropdown-item" href="#" target="_blank">网页版“魔塔”游戏</a></li>
+                        <li><a class="dropdown-item" href="#" target="_blank">基于RT-DETR的缺陷检测</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="intro">
+                <div class="myphoto">
+                    <img class="avatar" src="./img/1cun.jpg" alt="我的头像">
+                    <div class="photoBG"></div>
+                </div>
+                <h2 class="name">郑昕豪</h2>
+                <p class="bio">以屏幕为画板，以 HTML + CSS + JS 为画笔，自由描绘自己的想象。</p>
+            </div>
+            <div class="bq">
+                <p class="small">我最喜欢的一句话</p>
+                <blockquote>
+                    We can not solve our problems with the same level of thinking that created them.
+                    <span> - Albert Einstein</span>
+                </blockquote>
+            </div>
+        </div>
+    </main>
+
+    
+</body>
+</html>
