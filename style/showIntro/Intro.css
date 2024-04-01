@@ -1,0 +1,17 @@
+.avatar {
+    transition: all 0.9s ease;
+}
+
+
+.zoomed {
+    transform: translateX(-50%) scale(1.8); 
+}
+
+.side-text {
+    margin-top: 20px;
+}
+
+/* 隐藏其他部分 */
+.hidden {
+    display: none;
+}

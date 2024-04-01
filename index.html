@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./style/other/container_style.css">
     <link rel="stylesheet" href="./style/navbar/navbar_flex.css">
     <link rel="stylesheet" href="./style/navbar/navbar_list.css">
-    <link rel="stylesheet" href="./style/dropdown/dropdown_style.css">
+    <link rel="stylesheet" href="./style/navbar/dropdown_style.css">
     <link rel="stylesheet" href="./style/navbar/navbar_link.css">
     <link rel="stylesheet" href="./style/other/title.css">
     <link rel="stylesheet" href="./style/main/main_style.css">
@@ -17,40 +17,39 @@
     <link rel="stylesheet" href="./style/main/photo.css">
     <link rel="stylesheet" href="./style/main/main_font_style.css">
     <link rel="stylesheet" href="./style/other/screen_width.css">
-
-
-
+    <link rel="stylesheet" href="./style/showIntro/Intro.css">
 
 
 </head>
+
 <body>
     <header class="nav">
         <div class="container container-flex">
             <ul class="navbar-nav">
-                <li class="nav-item site-title"><a class="nav-link" href="#">个人网站</a></li>
+                <li class="nav-item site-title"><a class="nav-link" href="#" onclick="showInit()">个人网站</a></li>
             </ul>
             <ul>
-                <li class="nav-item"><a class="nav-link" href="#" target="_blank">我的Github主页</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" onclick="showIntro()">简介</a></li>
                 <li class="nav-item"><a class="nav-link" href="#" target="_blank">个人简历</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">项目经历</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">智能车</a></li>
-                        <li><a class="dropdown-item" href="#" target="_blank">网页版“魔塔”游戏</a></li>
+                        <li><a class="dropdown-item" href="https://zxh111222.github.io/myMota/" target="_blank">网页版“魔塔”游戏</a></li>
                         <li><a class="dropdown-item" href="#" target="_blank">基于RT-DETR的缺陷检测</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
     </header>
-    <main>
+    <main class="main-content">
         <div class="container">
             <div class="intro">
                 <div class="myphoto">
                     <img class="avatar" src="./img/1cun.jpg" alt="我的头像">
-    
                 </div>
                 <h2 class="name">郑昕豪</h2>
-                <p class="bio">以屏幕为画板，以 HTML + CSS + JS 为画笔，自由描绘自己的想象。</p>
+                <p class="bio">AI如同一座神秘的迷宫，每一步都是一次探索未知的冒险。我怀着无限的好奇心，不断学习其算法、原理，探索其在生活、工作中的无限可能。<br>
+                    <br>人生，是一首无字的诗，我愿成为其中的诗人，用心灵的笔触，书写出更美好的明天。</p>
             </div>
             <div class="bq">
                 <p class="small">我最喜欢的一句话</p>
@@ -63,5 +62,8 @@
     </main>
 
     
+
+    <script src="./js/showIntro.js"></script>
+
 </body>
 </html>
