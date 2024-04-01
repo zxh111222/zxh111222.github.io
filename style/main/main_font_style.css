@@ -1,0 +1,54 @@
+.name {
+    margin-bottom: 12px; /* 设置用户名下方外边距为12px */
+}
+
+.bio {
+    color: gray; /* 设置颜色为灰色 */
+}
+
+/* 引用区块内的小字 */
+.small {
+    font-size: 12px; /* 设置字号为12px */
+    text-align: center; /* 设置居中对齐 */
+    color: gray; /* 设置字体颜色为灰色 */
+    margin-bottom: 8px; /* 设置下方外边距为8px */
+}
+
+/* 引用区块的样式 */
+blockquote {
+    font-size: 23px; /* 设置字号为23px */
+    font-family: Open Sans; /* 设置字体为Open Sans */
+    font-style: italic; /* 设置文字倾斜 */
+    color: #555555; /* 设置字体颜色为深灰色 */
+    padding: 18px 30px 18px 75px; /* 设置内边距，顺序分别为上右下左 */
+    border-left: 8px solid #78C0A8; /* 设置左侧边框为8px蓝色 */
+    line-height: 1.6; /* 设置行高为1.6倍 */
+    position: relative; /* 设置定位为相对定位 */
+    background: #EDEDED; /* 设置背景色为浅灰色 */
+}
+
+/* 引用区块的左引号 */
+blockquote::before {
+    font-family: Arial; /* 设置字体为Arial */
+    content: "\201C"; /* 设置内容为左引号 */
+    color: #78C0A8; /* 设置颜色为蓝色 */
+    font-size: 64px; /* 设置字号为64px */
+    position: absolute; /* 设置绝对定位 */
+    left: 10px; /* 设置距离左侧10px */
+    top: -10px; /* 设置距离上方-10px */
+}
+
+/* 引用区块的右引号 */
+blockquote::after {
+    content: ''; /* 设置内容为空 */
+}
+
+/* 引用区块中的文字 */
+blockquote span {
+    display: block; /* 设置为块元素 */
+    color: #333333; /* 设置字体颜色为黑色 */
+    font-style: normal; /* 取消字体倾斜 */
+    font-weight: bold; /* 设置字体加粗 */
+    margin-top: 16px; /* 上方外边距为16px */
+}
+

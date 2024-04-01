@@ -1,0 +1,14 @@
+.myphoto {
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.avatar {
+    float: left;
+    margin: 3px 20px 0 3px;
+    border-radius: 30%;
+    border: 3px solid #78C0A8;
+    width: 100px;
+    height: auto;
+}

@@ -1,4 +1,5 @@
-.container-flex {
+.navbar-nav {
     display: flex;
     justify-content: space-between;
 }
+
