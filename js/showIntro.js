@@ -23,7 +23,8 @@ function showIntro() {
     var sideText = document.createElement('div');
     sideText.classList.add('side-text');
     sideText.style.marginRight = '30px';
-    sideText.innerHTML = '<p>出生于2001年，毕业于厦门工学院，大学所学专业为智能科学与技术。在大学生活中，其。。。。。。</p>';
+    sideText.innerHTML = 
+    '<p>出生于2001年，毕业于厦门工学院，大学期间专业为智能科学与技术。了解更多暂时可以点击导航栏的个人简历查看!<br><br><br><br><br><br><br><br><br></p>';
     mainContent.appendChild(sideText);
     
     // 隐藏其他部分
